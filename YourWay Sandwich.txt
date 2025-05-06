@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourWay Sandwiches</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; }
+    header, section, footer { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    header { background: #ffcf00; color: #006341; text-align: center; }
+    header h1 { font-size: 3rem; }
+    header p { font-size: 1.2rem; }
+    .btn { background: #006341; color: #fff; padding: 10px 20px; border: none; cursor: pointer; margin-top: 20px; }
+    .section-title { text-align: center; font-size: 2rem; margin-bottom: 20px; color: #006341; }
+    .about, .menu, .gallery, .contact, .location { margin-bottom: 60px; }
+    .menu-item, .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
+    .menu-items, .gallery-images { display: flex; flex-wrap: wrap; justify-content: center; }
+    .menu-item { border: 1px solid #ccc; padding: 15px; background: #f9f9f9; }
+    form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+    footer { background: #006341; color: white; text-align: center; padding: 20px; }
+    iframe { width: 100%; height: 300px; border: none; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YourWay</h1>
+    <p>Fresh. Fast. Your Way.</p>
+    <button class="btn">Order Now</button>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">About Us</h2>
+    <p>YourWay brings you fresh and delicious sandwiches made just the way you like them. Inspired by global flavors and made with local ingredients, we aim to give you a personalized food experience like no other.</p>
+  </section>
+
+  <section class="menu">
+    <h2 class="section-title">Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Classic Turkey</h3>
+        <p>Smoked turkey breast with lettuce, tomato, and mayo on Italian bread.</p>
+        <strong>$5.99</strong>
+      </div>
+      <div class="menu-item">
+        <h3>Veggie Delight</h3>
+        <p>Fresh vegetables and cheese on multigrain bread with your choice of dressing.</p>
+        <strong>$4.99</strong>
+      </div>
+      <div class="menu-item">
+        <h3>Spicy Chicken</h3>
+        <p>Grilled chicken breast, spicy sauce, pickles, and onions on white bread.</p>
+        <strong>$6.49</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-images">
+      <img src="https://via.placeholder.com/300x200" alt="Sandwich 1">
+      <img src="https://via.placeholder.com/300x200" alt="Sandwich 2">
+      <img src="https://via.placeholder.com/300x200" alt="Interior">
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="location">
+    <h2 class="section-title">Visit Us</h2>
+    <p>123 Sandwich Street, Erbil, Iraq<br>Open Daily: 10AM – 10PM</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.249842199469!2d44.002045!3d36.190914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400722ecbd4fa4df%3A0xc0ef2c61207b3b88!2sErbil%2C%20Iraq!5e0!3m2!1sen!2s!4v1680624480833!5m2!1sen!2s" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YourWay. All rights reserved. | Follow us on Instagram and Facebook @YourWaySandwiches</p>
+  </footer>
+</body>
+</html>
